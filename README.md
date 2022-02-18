@@ -4,6 +4,12 @@
 Golang client library for Firebase Cloud Messaging.
 It uses Firebase Cloud Messaging HTTP protocol: https://firebase.google.com/docs/cloud-messaging/http-server-ref.
 
+Note: It is using legacy HTTP Server Protocol
+
+This project is forking from 
+- https://github.com/ez-connect/go-fcm 
+- https://github.com/appleboy/go-fcm
+
 ## Getting Started
 
 ```sh
