@@ -24,7 +24,7 @@ import (
 
 func main() {
     // Create a client
-    client, err := fcm.NewClient("your-api-key", "your-sever-key")
+    client, err := fcm.NewClient("your-api-key", "your-server-key")
 
 	if err != nil {
 		log.Fatalln(err)
